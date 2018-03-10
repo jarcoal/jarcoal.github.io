@@ -32,6 +32,8 @@ Now that we have `pipenv` installed, create a directory for your project:
 $ mkdir -p ~/projects/pipenv_test/ && cd ~/projects/pipenv_test/
 ``` 
 
+## Using pipenv
+
 Here's where the magic starts.  Let's install a dependency:
 
 ```sh
