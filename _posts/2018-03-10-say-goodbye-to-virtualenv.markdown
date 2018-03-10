@@ -6,7 +6,7 @@ date:   2018-03-10 15:00:00
 
 These days it's hard to imagine developing in Python without [virtualenv](https://virtualenv.pypa.io/).  Having isolated environments prevents a whole class of subtle (and not so subtle) bugs, and makes it much easier to manage dependencies.
 
-But virtualenv isn't without it's pain points.  Having to `activate` and `deactivate` is a nuissance ([virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/) helps a bit) that makes jumping into, out of, and between environments harder than it needs to be.  Ideally we should be able to `pip install django` and `./manage.py runserver` without thinking about anything else.
+But virtualenv isn't without it's pain points.  Having to `activate` and `deactivate` is a nuisance ([virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/) helps a bit) that makes jumping into, out of, and between environments harder than it needs to be.  Ideally we should be able to `pip install django` and `./manage.py runserver` without thinking about anything else.
 
 The solution is [pipenv](https://pipenv.readthedocs.io/).  pipenv is a replacement for both pip and virtualenv, and is going to let us say goodbye to `activate`/`deactivate` forever.
 
