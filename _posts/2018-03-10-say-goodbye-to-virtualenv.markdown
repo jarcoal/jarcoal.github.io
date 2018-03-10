@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Saying Goodbye to Virtualenv"
+title:  "Say Goodbye to Virtualenv"
 date:   2018-03-10 15:00:00
 ---
 
